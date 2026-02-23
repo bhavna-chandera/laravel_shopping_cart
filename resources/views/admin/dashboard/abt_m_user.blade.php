@@ -98,7 +98,7 @@
 
 <body>
     <div class="title-bar">
-        <h1 class=" title-text">Monthly Users of 2025</h1>
+        <h1 class=" title-text">Monthly Users of 2026</h1>
     </div>
     <div class="title-bar-1">
         <h1 class="total-text">Total Users = {{ $totalUsers }}</h1>
