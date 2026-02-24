@@ -55,14 +55,6 @@ A full-featured web application built with Laravel that includes both User Panel
 
 ---
 
-## ⚙️ Database Setup
-
-After cloning the project, run the following command inside the project directory to create the database tables:
-
-### php artisan migrate
-
----
-
 ## 🔐 Admin Login Credentials (For Testing)
   
 <table>
@@ -212,7 +204,7 @@ Now create a database in phpMyAdmin (or MySQL) with the same name.
 ## Step 6: Run Migrations
 
 ```bash
-php artisan migrate
+php artisan migrate --seed
 ```
 
 ## Step 7: Install Frontend Dependencies
