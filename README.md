@@ -179,9 +179,9 @@ Make sure you have the following installed on your system:
 ## Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/bhavna-chandera/laravel_shopping_cart.git
 
-cd your-repository
+cd laravel_shopping_cart
 ```
 ---
 ## Step 2: Install PHP Dependencies
