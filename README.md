@@ -55,6 +55,14 @@ A full-featured web application built with Laravel that includes both User Panel
 
 ---
 
+## ⚙️ Database Setup
+
+After cloning the project, run the following command inside the project directory to create the database tables:
+
+### php artisan migrate
+
+---
+
 ## 🔐 Admin Login Credentials (For Testing)
   
 <table>
@@ -147,3 +155,96 @@ A full-featured web application built with Laravel that includes both User Panel
 
 #### Rating & Review Management
 ![Rating & Review Management](screenshots/admin_all_rates.png)
+
+---
+
+# 🚀 Laravel Project Installation Guide
+
+Follow the steps below to set up and run this Laravel project locally.
+
+---
+
+## 📌 Prerequisites
+
+Make sure you have the following installed on your system:
+
+- PHP (>= 8.x)
+- Composer
+- MySQL
+- Node.js & NPM
+- Git
+
+---
+
+## Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+
+cd your-repository
+```
+---
+## Step 2: Install PHP Dependencies
+
+```bash
+composer install
+```
+## Step 3: Create Environment File
+
+```bash
+cp .env.example .env
+```
+## Step 4: Generate Application Key
+
+```bash
+php artisan key:generate
+```
+## Step 5: Configure Database
+Open the .env file and update the following database credentials:
+
+```bash
+DB_DATABASE=your_database_name
+DB_USERNAME=your_database_username
+DB_PASSWORD=your_database_password
+```
+Now create a database in phpMyAdmin (or MySQL) with the same name.
+
+## Step 6: Run Migrations
+
+```bash
+php artisan migrate
+```
+
+## Step 7: Install Frontend Dependencies
+
+```bash
+npm install
+```
+
+## Step 8: Compile Assets
+
+For development:
+```bash
+npm run dev
+```
+For production:
+```bash
+npm run build
+```
+
+## Step 9: Start the Development Server
+
+```bash
+php artisan serve
+```
+Visit the application at:
+http://127.0.0.1:8000
+
+---
+---
+
+### ✅ INSTALLATION COMPLETED ✅
+---
+---
+
+
