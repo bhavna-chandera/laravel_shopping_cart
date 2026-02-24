@@ -1,4 +1,4 @@
-# laravel_shopping_cart
+# laravel_shopping_cart 🛒
 
 A full-featured web application built with Laravel that includes both User Panel and Admin Panel for managing the system efficiently.
 
